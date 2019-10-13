@@ -7,8 +7,9 @@ schema:
 - schema.graphql
 exec:
   filename: generated.go
-model:
-  filename: models_gen.go
+models:
+  Todo:
+    model: github.com/purini-to/gqlgen-todos.Todo
 resolver:
   filename: resolver.go
   type: Resolver
